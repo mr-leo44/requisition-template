@@ -12,8 +12,8 @@
                 </button>
                 <button type="button" id="gridView"
                     class="p-2.5 ms-2 text-sm font-medium text-white bg-gray-400 hover:bg-gray-500 rounded-lg [&.active]:bg-gray-900 active">
-                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M9.143 4H4.857A.857.857 0 0 0 4 4.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 10 9.143V4.857A.857.857 0 0 0 9.143 4Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 20 9.143V4.857A.857.857 0 0 0 19.143 4Zm-10 10H4.857a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286A.857.857 0 0 0 9.143 14Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286a.857.857 0 0 0-.857-.857Z" />
                     </svg>
@@ -32,7 +32,7 @@
                         </svg>
                     </div>
                     <input type="text" id="simple-search"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full ps-10 p-2.5 dark:placeholder-gray-400 dark:text-white"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full ps-10 p-2.5 dark:focus:text-gray-700"
                         placeholder="Rechercher..." required />
                 </div>
                 <button type="submit" class="p-2.5 ms-2 text-sm font-medium text-white bg-orange-500 rounded-lg">
@@ -477,22 +477,24 @@
     const cardGridView = document.getElementById("cardGridView");
     const cardListView = document.getElementById("cardListView");
 
-    listView.addEventListener("click", toggleListView);
-    gridView.addEventListener("click", toggleGridView);
+    listView.addEventListener("click", function() {
+        localStorage.setItem('viewMode', 'list')
+        toggleView()
+    });
+    gridView.addEventListener("click", function() {
+        localStorage.setItem('viewMode', 'grid')
+        toggleView()
+    });
 
-    function toggleListView() {
-        if (!listView.classList.contains('active')) {
+    function toggleView() {
+        const viewMode = localStorage.getItem('viewMode')
+        if (viewMode === 'list') {
             listView.classList.add("active");
             cardListView.classList.remove("hidden");
             cardListView.classList.add("active");
             gridView.classList.remove("active");
             cardGridView.classList.add("hidden");
-        }
-        
-    }
-
-    function toggleGridView() {
-        if (listView.classList.contains('active')) {
+        } else {
             gridView.classList.add("active");
             cardGridView.classList.remove("hidden");
             cardGridView.classList.add("active");
@@ -500,4 +502,6 @@
             cardListView.classList.add("hidden");
         }
     }
+
+    toggleView()
 </script>
