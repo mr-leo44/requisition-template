@@ -24,8 +24,8 @@
                     <li class="me-2" role="presentation">
                         <button
                             class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                            id="statistics-styled-tab" data-tabs-target="#styled-statistics" type="button" role="tab"
-                            aria-controls="statistics" aria-selected="false">Statistiques</button>
+                            id="statistics-styled-tab" data-tabs-target="#styled-statistics" type="button"
+                            role="tab" aria-controls="statistics" aria-selected="false">Statistiques</button>
                     </li>
                 </ul>
             </div>
@@ -46,4 +46,54 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const ongoingButton = document.getElementById("ongoing-styled-tab");
+        const historicsButton = document.getElementById("historics-styled-tab");
+        const statisticsButton = document.getElementById("statistics-styled-tab");
+        const ongoingTab = document.getElementById("styled-ongoing");
+        const historicsTab = document.getElementById("styled-historics");
+        const statisticsTab = document.getElementById("styled-statistics");
+
+        ongoingButton.addEventListener("click", function() {
+            localStorage.setItem('viewTab', 'ongoing')
+            toggleTab()
+        });
+        historicsButton.addEventListener("click", function() {
+            localStorage.setItem('viewTab', 'historics')
+            toggleTab()
+        });
+        statisticsButton.addEventListener("click", function() {
+            localStorage.setItem('viewTab', 'statistics')
+            toggleTab()
+        });
+
+        function toggleTab() {
+            const viewTab = localStorage.getItem('viewTab')
+            if (viewTab === 'historics') {
+                historicsButton.setAttribute('aria-selected', true)
+                ongoingButton.setAttribute('aria-selected', false)
+                statisticsButton.setAttribute('aria-selected', false)
+                historicsTab.classList.remove('hidden')
+                ongoingTab.classList.add('hidden')
+                statisticsTab.classList.add('hidden')
+            } else if (viewTab === 'statistics') {
+                statisticsButton.setAttribute('aria-selected', true)
+                ongoingButton.setAttribute('aria-selected', false)
+                historicsButton.setAttribute('aria-selected', false)
+                statisticsTab.classList.remove('hidden')
+                ongoingTab.classList.add('hidden')
+                historicsTab.classList.add('hidden')
+            } else {
+                ongoingButton.setAttribute('aria-selected', true)
+                historicsButton.setAttribute('aria-selected', false)
+                statisticsButton.setAttribute('aria-selected', false)
+                ongoingTab.classList.remove('hidden')
+                historicsTab.classList.add('hidden')
+                statisticsTab.classList.add('hidden')
+            }
+        }
+
+        toggleTab()
+    </script>
 </x-app-layout>
