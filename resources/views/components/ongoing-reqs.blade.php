@@ -1,7 +1,7 @@
 <div class="hidden p-2 rounded-lg" id="styled-ongoing" role="tabpanel" aria-labelledby="ongoing-tab">
     <div class="flex gap-3 justify-end items-center mb-6">
         <div>
-            <div class="flex gap-2 justify-between items-center">
+            <div class="flex justify-between items-center">
                 <button type="button" id="listView"
                     class="p-2.5 ms-2 text-sm font-medium text-white bg-gray-400 hover:bg-gray-500 rounded-lg [&.active]:bg-gray-900">
                     <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -35,7 +35,7 @@
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full ps-10 p-2.5 dark:focus:text-gray-700"
                         placeholder="Rechercher..." required />
                 </div>
-                <button type="submit" class="p-2.5 ms-2 text-sm font-medium text-white bg-orange-500 rounded-lg">
+                <button type="submit" class="p-3.5 ms-2 text-sm font-medium text-white bg-orange-500 rounded-lg">
                     <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 20 20">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
