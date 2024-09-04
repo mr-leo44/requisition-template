@@ -450,7 +450,7 @@
             </div>
         </div>
     </div>
-    <div class="hidden text-gray-900 dark:text-white" id="cardListView">
+    <div class="hidden text-gray-900 overflow-x-auto dark:text-white" id="cardListView">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead class="text-xs uppercase bg-slate-100 dark:bg-transparent text-black dark:text-white">
                 <tr>
@@ -481,6 +481,146 @@
                 </tr>
             </thead>
             <tbody class="bg-white dark:bg-gray-800">
+                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        REQ-1-2024
+                    </td>
+                    <td class="px-6 py-4">
+                        Sharon Jayes
+                    </td>
+                    <td class="px-6 py-4">
+                        Moyens généraux
+                    </td>
+                    <td class="px-6 py-4">
+                        Kinshasa
+                    </td>
+                    <td class="px-6 py-4">
+                        Mercredi 04 Septembre 2024 14:08
+                    </td>
+                    <td class="px-6 py-4">
+                        40 pièces
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <button class="bg-orange-500 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        REQ-1-2024
+                    </td>
+                    <td class="px-6 py-4">
+                        Sharon Jayes
+                    </td>
+                    <td class="px-6 py-4">
+                        Moyens généraux
+                    </td>
+                    <td class="px-6 py-4">
+                        Kinshasa
+                    </td>
+                    <td class="px-6 py-4">
+                        Mercredi 04 Septembre 2024 14:08
+                    </td>
+                    <td class="px-6 py-4">
+                        40 pièces
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <button class="bg-orange-500 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        REQ-1-2024
+                    </td>
+                    <td class="px-6 py-4">
+                        Sharon Jayes
+                    </td>
+                    <td class="px-6 py-4">
+                        Moyens généraux
+                    </td>
+                    <td class="px-6 py-4">
+                        Kinshasa
+                    </td>
+                    <td class="px-6 py-4">
+                        Mercredi 04 Septembre 2024 14:08
+                    </td>
+                    <td class="px-6 py-4">
+                        40 pièces
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <button class="bg-orange-500 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        REQ-1-2024
+                    </td>
+                    <td class="px-6 py-4">
+                        Sharon Jayes
+                    </td>
+                    <td class="px-6 py-4">
+                        Moyens généraux
+                    </td>
+                    <td class="px-6 py-4">
+                        Kinshasa
+                    </td>
+                    <td class="px-6 py-4">
+                        Mercredi 04 Septembre 2024 14:08
+                    </td>
+                    <td class="px-6 py-4">
+                        40 pièces
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <button class="bg-orange-500 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
+                                <path stroke="currentColor" stroke-width="2"
+                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                         1
