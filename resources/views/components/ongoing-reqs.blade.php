@@ -1,5 +1,5 @@
 <div class="hidden p-2 rounded-lg" id="styled-ongoing" role="tabpanel" aria-labelledby="ongoing-tab">
-    <div class="flex gap-3 justify-between items-center mb-6">
+    <div class="flex gap-3 justify-between items-center mb-6 pr-6">
         <div class="flex justify-between items-center">
             <button type="button" id="gridView"
                 class="p-2.5 ms-2 ease-in-out transition-all duration-75 text-sm font-medium text-white bg-gray-400 hover:bg-gray-500 rounded-lg [&.active]:bg-gray-900 active">
@@ -500,11 +500,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -513,7 +513,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -535,11 +553,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -548,7 +566,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -570,11 +606,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -583,7 +619,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -605,11 +659,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -618,7 +672,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -640,11 +712,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -653,7 +725,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -675,11 +765,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -688,7 +778,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -710,11 +818,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -723,7 +831,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
+                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                        </a>
                     </td>
                 </tr>
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
@@ -745,11 +871,11 @@
                     <td class="px-6 py-4">
                         Mercredi 04 Septembre 2024 14:08
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 text-right">
                         40 pièces
                     </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                    <td class="px-6 py-4 text-right flex items-center justify-end gap-2">
+                        <a href="" class="bg-orange-500 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -758,112 +884,25 @@
                                 <path stroke="currentColor" stroke-width="2"
                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                        </button>
-                    </td>
-                </tr>
-                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                        1
-                    </th>
-                    <td class="px-6 py-4">
-                        REQ-1-2024
-                    </td>
-                    <td class="px-6 py-4">
-                        Sharon Jayes
-                    </td>
-                    <td class="px-6 py-4">
-                        Moyens généraux
-                    </td>
-                    <td class="px-6 py-4">
-                        Kinshasa
-                    </td>
-                    <td class="px-6 py-4">
-                        Mercredi 04 Septembre 2024 14:08
-                    </td>
-                    <td class="px-6 py-4">
-                        40 pièces
-                    </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                        </a>
+                        <a href="" class="bg-gray-600 dark:hover:bg-gray-800 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-width="2"
-                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
-                                <path stroke="currentColor" stroke-width="2"
-                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z" />
                             </svg>
-                        </button>
-                    </td>
-                </tr>
-                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                        1
-                    </th>
-                    <td class="px-6 py-4">
-                        REQ-1-2024
-                    </td>
-                    <td class="px-6 py-4">
-                        Sharon Jayes
-                    </td>
-                    <td class="px-6 py-4">
-                        Moyens généraux
-                    </td>
-                    <td class="px-6 py-4">
-                        Kinshasa
-                    </td>
-                    <td class="px-6 py-4">
-                        Mercredi 04 Septembre 2024 14:08
-                    </td>
-                    <td class="px-6 py-4">
-                        40 pièces
-                    </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
+                        </a>
+                        <a href="" class="bg-red-600 px-3 py-2 rounded">
                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-width="2"
-                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
-                                <path stroke="currentColor" stroke-width="2"
-                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
                             </svg>
-                        </button>
-                    </td>
-                </tr>
-                <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                        1
-                    </th>
-                    <td class="px-6 py-4">
-                        REQ-1-2024
-                    </td>
-                    <td class="px-6 py-4">
-                        Sharon Jayes
-                    </td>
-                    <td class="px-6 py-4">
-                        Moyens généraux
-                    </td>
-                    <td class="px-6 py-4">
-                        Kinshasa
-                    </td>
-                    <td class="px-6 py-4">
-                        Mercredi 04 Septembre 2024 14:08
-                    </td>
-                    <td class="px-6 py-4">
-                        40 pièces
-                    </td>
-                    <td class="px-6 py-4 text-right">
-                        <button class="bg-orange-500 px-3 py-2 rounded">
-                            <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-width="2"
-                                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
-                                <path stroke="currentColor" stroke-width="2"
-                                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                            </svg>
-                        </button>
+                        </a>
                     </td>
                 </tr>
             </tbody>
