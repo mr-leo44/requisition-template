@@ -18,10 +18,10 @@
 
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pb-8">
-        @include('layouts.navigation')
-
-        <!-- Page Heading -->
-        <div class="pt-24 sm:px-6 lg:px-8">
+        <div
+            class="fixed z-30 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 py-3 px-6">
+            @include('layouts.navigation')
+            <!-- Page Heading -->
             @isset($header)
                 <header>
                     <div class="py-6 px-4 sm:px-6 lg:px-8">
@@ -30,12 +30,12 @@
                 </header>
             @endisset
         </div>
-
-        <!-- Page Content -->
-        <main class="sm:px-6 lg:px-8">
-            {{ $slot }}
-        </main>
+        <div class="pt-56 sm:px-6 lg:px-8">
+            <!-- Page Content -->
+            <main class="sm:px-6 lg:px-8">
+                {{ $slot }}
+            </main>
+        </div>
     </div>
 </body>
-
 </html>
