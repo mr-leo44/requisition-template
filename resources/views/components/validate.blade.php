@@ -1,7 +1,7 @@
 <div class="hidden p-4 rounded-lg" id="styled-validate" role="tabpanel" aria-labelledby="validate-tab">
     <div class="flex gap-3 justify-between items-center mb-6 pr-6">
         <div class="flex justify-between items-center">
-            <button type="button" id="gridView"
+            <button type="button" id="validateGridView"
                 class="p-2.5 ms-2 ease-in-out transition-all duration-75 text-sm font-medium text-white bg-gray-400 hover:bg-gray-500 rounded-lg [&.active]:bg-gray-900 active">
                 <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                     viewBox="0 0 24 24">
@@ -9,7 +9,7 @@
                         d="M9.143 4H4.857A.857.857 0 0 0 4 4.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 10 9.143V4.857A.857.857 0 0 0 9.143 4Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 20 9.143V4.857A.857.857 0 0 0 19.143 4Zm-10 10H4.857a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286A.857.857 0 0 0 9.143 14Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286a.857.857 0 0 0-.857-.857Z" />
                 </svg>
             </button>
-            <button type="button" id="listView"
+            <button type="button" id="validateListView"
                 class="p-2.5 ms-2 ease-in-out transition-all duration-75 text-sm font-medium text-white bg-gray-400 hover:bg-gray-500 rounded-lg [&.active]:bg-gray-900">
                 <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                     viewBox="0 0 24 24">
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 grid-cols-1 gap-3" id="cardGridView">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 grid-cols-1 gap-3" id="cardValidateGridView">
         <div
             class="block bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="border-b dark:border-gray-600 p-4">
@@ -450,7 +450,7 @@
             </div>
         </div>
     </div>
-    <div class="hidden text-gray-900 overflow-x-auto dark:text-white" id="cardListView">
+    <div class="hidden text-gray-900 overflow-x-auto dark:text-white" id="cardValidateListView">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead class="text-xs uppercase bg-slate-100 dark:bg-transparent text-black dark:text-white">
                 <tr>
@@ -910,34 +910,34 @@
     </div>
 
     <script>
-        const listView = document.getElementById("listView");
-        const gridView = document.getElementById("gridView");
-        const cardGridView = document.getElementById("cardGridView");
-        const cardListView = document.getElementById("cardListView");
+        const validateListView = document.getElementById("validateListView");
+        const validateGridView = document.getElementById("validateGridView");
+        const cardValidateGridView = document.getElementById("cardValidateGridView");
+        const cardValidateListView = document.getElementById("cardValidateListView");
 
-        listView.addEventListener("click", function() {
-            localStorage.setItem('viewMode', 'list')
+        validateListView.addEventListener("click", function() {
+            localStorage.setItem('viewMode', 'validate-list')
             toggleView()
         });
-        gridView.addEventListener("click", function() {
-            localStorage.setItem('viewMode', 'grid')
+        validateGridView.addEventListener("click", function() {
+            localStorage.setItem('viewMode', 'validate-grid')
             toggleView()
         });
 
         function toggleView() {
             const viewMode = localStorage.getItem('viewMode')
-            if (viewMode === 'list') {
-                listView.classList.add("active");
-                cardListView.classList.remove("hidden");
-                cardListView.classList.add("active");
-                gridView.classList.remove("active");
-                cardGridView.classList.add("hidden");
+            if (viewMode === 'validate-list') {
+                validateListView.classList.add("active");
+                cardValidateListView.classList.remove("hidden");
+                cardValidateListView.classList.add("active");
+                validateGridView.classList.remove("active");
+                cardValidateGridView.classList.add("hidden");
             } else {
-                gridView.classList.add("active");
-                cardGridView.classList.remove("hidden");
-                cardGridView.classList.add("active");
-                listView.classList.remove("active");
-                cardListView.classList.add("hidden");
+                validateGridView.classList.add("active");
+                cardValidateGridView.classList.remove("hidden");
+                cardValidateGridView.classList.add("active");
+                validateListView.classList.remove("active");
+                cardValidateListView.classList.add("hidden");
             }
         }
 

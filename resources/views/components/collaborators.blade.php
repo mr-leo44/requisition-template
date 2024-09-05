@@ -917,14 +917,14 @@
 
         collaboratorsListView.addEventListener("click", function() {
             localStorage.setItem('viewMode', 'collaborators-list')
-            toggleView()
+            collaboratorsToggleView()
         });
         collaboratorsGridView.addEventListener("click", function() {
             localStorage.setItem('viewMode', 'collaborators-grid')
-            toggleView()
+            collaboratorsToggleView()
         });
 
-        function toggleView() {
+        function collaboratorsToggleView() {
             const viewMode = localStorage.getItem('viewMode')
             if (viewMode === 'collaborators-list') {
                 collaboratorsListView.classList.add("active");
@@ -941,6 +941,6 @@
             }
         }
 
-        toggleView()
+        collaboratorsToggleView()
     </script>
 </div>
